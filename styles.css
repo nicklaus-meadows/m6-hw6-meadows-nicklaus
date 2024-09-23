@@ -1,0 +1,132 @@
+
+html {
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%239C92AC' fill-opacity='0.21'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+} 
+
+body {
+   /* max-width: 800px; */
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+} 
+
+main { 
+    max-width: 900px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-left: 185px;
+    margin-right: 75px;
+}
+
+header {
+    width: 100%;
+    
+}
+
+header, h1, nav, a {
+display: inline-block;
+background-color: whitesmoke;
+margin-bottom: 20px;
+padding-left: 2px;
+
+}
+
+#navbar {
+    text-align: right;
+    float: right;
+    margin-top: 35px;
+    margin-right: 100px;
+    /*margin-left: 450px;*/
+
+}
+
+h1 {
+    padding-left: 185px;
+}
+
+#nickphoto {
+    max-width: 25%;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+h5 {
+    text-align: center;
+}
+
+footer {
+    background-color: darkslategray;
+    padding: 10px;
+    clear: left;
+    width: 100%;
+    
+   
+    
+}
+
+#aboutMe {
+    border-bottom: thin solid black;
+    background-color: whitesmoke;
+    
+}
+
+#part1About, #part2About {
+    font-size: large;
+    background-color: whitesmoke;
+    padding: 8px;
+    border-radius: 5px;
+    padding-top: 0px;
+
+}
+
+#linkedin, #soverflow, #github {
+    width: 15%;
+    margin-left: 10px;
+    
+}
+
+#connect span {
+    border-bottom: thin solid black;
+    font-size: large;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+aside {
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-left: 0px;
+    border-radius: 5px;
+    max-width: 190px;
+    float: right;
+    margin-right: 165px;
+    
+
+    
+}
+
+/*aside, main {
+    float: left;
+    width: 50%;
+    
+} */
+
+main {
+    float: left;
+    width: 35%;
+}
+
+
+a {
+    display: inline;
+
+}
+
+
