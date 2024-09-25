@@ -5,7 +5,7 @@ html {
 } 
 
 body {
-   /* max-width: 800px; */
+   /* max-width: 900px; */
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -30,7 +30,10 @@ main {
 .navContainer {
     display: flex;
     align-items: baseline;
-    margin-right: 100px;
+    /* margin-right: 100px; */
+    border-bottom: thin solid black;
+    background-color: whitesmoke;
+    padding-right: 24px;
     
 }
 
