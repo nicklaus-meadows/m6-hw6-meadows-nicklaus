@@ -27,6 +27,7 @@ main {
 } */
 
 
+
 .navContainer {
     display: flex;
     align-items: baseline;
@@ -34,14 +35,26 @@ main {
     border-bottom: thin solid black;
     background-color: whitesmoke;
     padding-right: 24px;
+    line-height: 1;
+    text-wrap: wrap;
+    font-family:monospace
     
 }
 
-.box-1 {
+.box-1  {
     margin-right: auto;
     padding-left: 24px;
+    background-color: darkslateblue;
+    padding-right: 24px;
+   
     
 }
+
+
+
+
+
+
 
 /* header, h1, nav, a {
 display: inline-block;
