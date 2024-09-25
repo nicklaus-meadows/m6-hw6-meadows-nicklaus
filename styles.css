@@ -21,12 +21,26 @@ main {
     margin-right: 75px;
 }
 
-header {
+/* header {
     width: 100%;
+    
+} */
+
+
+.navContainer {
+    display: flex;
+    align-items: baseline;
+    margin-right: 100px;
     
 }
 
-header, h1, nav, a {
+.box-1 {
+    margin-right: auto;
+    padding-left: 24px;
+    
+}
+
+/* header, h1, nav, a {
 display: inline-block;
 background-color: whitesmoke;
 margin-bottom: 20px;
@@ -36,12 +50,11 @@ padding-left: 2px;
 
 #navbar {
     text-align: right;
-    float: right;
     margin-top: 35px;
     margin-right: 100px;
     /*margin-left: 450px;*/
 
-}
+ */
 
 h1 {
     padding-left: 185px;
@@ -49,7 +62,6 @@ h1 {
 
 #nickphoto {
     max-width: 25%;
-    float: left;
     padding-right: 15px;
     padding-bottom: 10px;
 }
@@ -105,28 +117,23 @@ aside {
     margin-left: 0px;
     border-radius: 5px;
     max-width: 190px;
-    float: right;
     margin-right: 165px;
     
 
     
 }
 
-/*aside, main {
-    float: left;
-    width: 50%;
-    
-} */
+
 
 main {
-    float: left;
+  
     width: 35%;
 }
 
 
-a {
+/* a {
     display: inline;
 
-}
+} */
 
 
