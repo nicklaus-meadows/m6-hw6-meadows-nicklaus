@@ -50,8 +50,17 @@ main {
     
 }
 
+.topContainer {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
 
-
+.para-1 {
+    margin-right: auto;
+    
+    
+}
 
 
 
