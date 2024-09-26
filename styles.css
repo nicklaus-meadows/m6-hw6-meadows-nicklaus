@@ -1,32 +1,48 @@
-
-html {
-    background-color: #DFDBE5;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%239C92AC' fill-opacity='0.21'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
-} 
-
 body {
-   /* max-width: 900px; */
-    margin: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-} 
-
-main { 
-    max-width: 900px;
-    background-color: whitesmoke;
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 25px;
-    margin-left: 185px;
-    margin-right: 75px;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: monospace;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%239C92AC' fill-opacity='0.21'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #DFDBE5;
 }
 
-/* header {
-    width: 100%;
+
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 75px;
+    align-content: center;
+    background-color: violet;
+    padding: 10px;
     
-} */
 
 
+}
+
+.textSection1 {
+    width: 60%;
+    margin-right: auto;
+    padding-right: 60px;
+
+}
+
+.textSection2 {
+    width: 40%;
+    margin-left: auto;
+    
+    
+    
+}
+
+.textSection2 img {
+    width: 20%;
+    font-family: monospace;
+    
+    
+}
 
 .navContainer {
     display: flex;
@@ -35,9 +51,7 @@ main {
     border-bottom: thin solid black;
     background-color: whitesmoke;
     padding-right: 24px;
-    line-height: 1;
-    text-wrap: wrap;
-    font-family:monospace
+    font-family:monospace;
     
 }
 
@@ -50,115 +64,21 @@ main {
     
 }
 
-.topContainer {
-    display: flex;
-    align-items: center;
-    /* flex-direction: column; */
-}
-
-.para-1 {
-    margin-right: auto;
-    
-    
-}
-
-
-
-
-/* header, h1, nav, a {
-display: inline-block;
-background-color: whitesmoke;
-margin-bottom: 20px;
-padding-left: 2px;
-
-}
-
-#navbar {
-    text-align: right;
-    margin-top: 35px;
-    margin-right: 100px;
-    /*margin-left: 450px;*/
-
- */
-
-h1 {
-    padding-left: 185px;
-}
-
-#nickphoto {
-    max-width: 25%;
-    padding-right: 15px;
-    padding-bottom: 10px;
-}
-
-h5 {
-    text-align: center;
-}
-
-footer {
+.fixFooter {
     background-color: darkslategray;
     padding: 10px;
-    clear: left;
     width: 100%;
-    
-   
-    
+    text-align: center;   
+    margin-top: auto;
 }
 
-#aboutMe {
+img {
+    width: 20%;
+    float: left;
+    padding-right: 15px;
+}
+
+#aboutMe, #connect span {
     border-bottom: thin solid black;
-    background-color: whitesmoke;
-    
 }
-
-#part1About, #part2About {
-    font-size: large;
-    background-color: whitesmoke;
-    padding: 8px;
-    border-radius: 5px;
-    padding-top: 0px;
-
-}
-
-#linkedin, #soverflow, #github {
-    width: 15%;
-    margin-left: 10px;
-    
-}
-
-#connect span {
-    border-bottom: thin solid black;
-    font-size: large;
-    font-style: italic;
-    margin-left: 10px;
-}
-
-aside {
-    background-color: whitesmoke;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    margin-left: 0px;
-    border-radius: 5px;
-    max-width: 190px;
-    margin-right: 165px;
-    
-
-    
-}
-
-
-
-main {
-  
-    width: 35%;
-}
-
-
-/* a {
-    display: inline;
-
-} */
-
 
