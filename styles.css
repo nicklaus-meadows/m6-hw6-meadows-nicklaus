@@ -85,12 +85,15 @@ body {
     width: 100%;
     text-align: center;   
     margin-top: auto;
+    color: whitesmoke
 }
 
 img {
     width: 20%;
     float: left;
-    padding-right: 15px;
+    /* padding-right: 15px; */
+    border: thin solid white;
+    margin-right: 10px;
 }
 
 #aboutMe, #connect span {
