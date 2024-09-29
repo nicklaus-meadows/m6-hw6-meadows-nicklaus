@@ -15,8 +15,13 @@ body {
     justify-content: space-between;
     margin: 0 75px;
     align-content: center;
-    background-color: violet;
+    /* background-color: violet; */
     padding: 10px;
+    column-gap: 10px;
+    
+    
+    
+    
     
 
 
@@ -26,12 +31,22 @@ body {
     width: 60%;
     margin-right: auto;
     padding-right: 60px;
+    background-color: violet;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
 
 }
 
 .textSection2 {
     width: 40%;
+    max-height: 20vh;
     margin-left: auto;
+    background-color: violet;
+    padding: 10px;
+    border-radius: 5px;
+    
     
     
     
